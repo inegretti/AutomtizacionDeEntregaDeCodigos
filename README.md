@@ -17,3 +17,5 @@ Proyecto final del curso de Automatización IA.
 - Registro histórico en Airtable
 - Manejo de errores
 - Human In The Loop
+
+ACLARACIONES: las capturas se encuentran en el pdf.
