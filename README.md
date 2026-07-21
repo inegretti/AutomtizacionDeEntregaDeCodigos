@@ -39,7 +39,7 @@ Contiene la documentación técnica y diagramas del proyecto.
 
 ## Correcciones realizadas
 - Se agregó filtro para ignorar mensajes de bots.
-- Se implementó Human in the Loop mediante Airtable.
+- Se implementó Human in the Loop mediante un segundo flujo que espera a las autorizaciones mendiate Airtable.
 - Se reorganizó la lógica para registrar el resultado antes de responder al usuario.
 - Se mejoró la documentación del proyecto.
 - Se agregan las nuevas capturas a docs y al pdf.
