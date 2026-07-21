@@ -26,7 +26,6 @@ Usuario → Telegram → Make → Airtable → Outlook → Telegram
    - Autorizado
    - Denegado
 6. Un segundo escenario monitorea Airtable.
-7. El proceso continúa únicamente después de la aprobación humana.
 
 ## Estructura del repositorio
 
@@ -38,11 +37,9 @@ Contiene los escenarios exportados desde Make.
 
 Contiene la documentación técnica y diagramas del proyecto.
 
-## Mejoras futuras
-
-- Gestión de múltiples administradores.
-- Integración con WhatsApp.
-- Auditoría avanzada.
-- Roles y permisos.
-
-ACLARACIONES:se agregan las nuevas capturas a docs.
+## Correcciones realizadas
+- Se agregó filtro para ignorar mensajes de bots.
+- Se implementó Human in the Loop mediante Airtable.
+- Se reorganizó la lógica para registrar el resultado antes de responder al usuario.
+- Se mejoró la documentación del proyecto.
+- Se agregan las nuevas capturas a docs y al pdf.
